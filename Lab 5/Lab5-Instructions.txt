@@ -1,0 +1,49 @@
+CPS305 Lab 5
+
+---------------------------
+
+Topics: 
+------
+  Heaps
+
+Files:
+------
+  Lab5-studentnumber.py
+  Incorrectly named files will receive a mark of zero.
+
+Submit Files:
+------------
+  Submit file through D2L
+
+Summary:
+--------
+
+Given:  You are given a Python Class template. In this template there
+        is one class, MyHeap. The goal of this lab is to implement 
+        a max heap.
+
+Task:   - First, create a method called getName() that returns your 
+        name. If this does not work, you will receive a mark of zero.  
+        
+        - A class called MyHeap is given. Implement the follow methods: 
+        __init__(self, array) create; insers the initial array and build the
+        heap using the O(n) methodt(self, data) should insert a
+        new element in the heap;  heapify(self) should ensure that the 
+        heap property is maintained after insertion; extractFirst() 
+        should return the first element of the heap; __len__() should 
+        return the size of the heap in O(1); getData(self) should 
+        return the array.
+
+        - You should use a single list to fill data. 
+        
+Rule:   You may not use heapq to implement this.
+        
+
+Use Lab5Tester.py to test your code
+Example command line:
+$python Lab5Tester.py Lab5-123456789.py
+
+
+
+
+
